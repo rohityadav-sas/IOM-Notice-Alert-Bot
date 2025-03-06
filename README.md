@@ -1,3 +1,9 @@
+# ⚠️ **_DEPRECATED_** ⚠️
+
+![Deprecated](https://img.shields.io/badge/status-deprecated-red)
+
+**⚠️ This project is no longer maintained due to the lack of a server to host the Telegram bot. The repository remains available for reference, but the bot will not function as expected. ❌🤖**
+
 ## IOE-IOM Notice Alert Bot
 
 **IOE-IOM Notice Alert Bot** is a Node.js Telegram bot that scrapes and retrieves examination and official notices from the Institute of Engineering's (IOE) and Institute of Medicine’s (IOM) websites, and delivers them directly to your Telegram account when new notices are available.
@@ -15,13 +21,14 @@
 - [Contributing](#contributing)
 
 ## Preview
+
 <div style="display:flex; justify-content:space-between">
   <img src="./assets/preview1.png?raw=true" height="100%" width="45%"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
   <img src="./assets/preview2.png?raw=true" height="100%" width="45%"/>
 </div>
 <br>
 
-***
+---
 
 <br>
 <div style="display:flex; justify-content:space-between">
@@ -46,41 +53,46 @@
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/rohityadav-sas/IOE-IOM-Notice-Alert-Bot.git
-    ```
+
+   ```sh
+   git clone https://github.com/rohityadav-sas/IOE-IOM-Notice-Alert-Bot.git
+   ```
 
 2. Navigate to the project directory:
-    ```sh
-    cd IOE-IOM-Notice-Alert-Bot
-    ```
+
+   ```sh
+   cd IOE-IOM-Notice-Alert-Bot
+   ```
 
 3. Install the required dependencies:
-    ```sh
-    npm install
-    ```
 
-4. Create a ```.env``` file in the root directory and add your Telegram bot tokens and authentication credentials:
-    ```env
-    TELEGRAM_BOT_TOKEN_IOE=your-ioe-telegram-bot-token
+   ```sh
+   npm install
+   ```
 
-    TELEGRAM_BOT_TOKEN_IOM=your-iom-telegram-bot-token
+4. Create a `.env` file in the root directory and add your Telegram bot tokens and authentication credentials:
 
-    USER=your-username
+   ```env
+   TELEGRAM_BOT_TOKEN_IOE=your-ioe-telegram-bot-token
 
-    PASSWORD=your-password
+   TELEGRAM_BOT_TOKEN_IOM=your-iom-telegram-bot-token
 
-    JWT_SECRET=your-secret-key
+   USER=your-username
 
-    GITHUB_TOKEN=your-github-token
-    ```
+   PASSWORD=your-password
+
+   JWT_SECRET=your-secret-key
+
+   GITHUB_TOKEN=your-github-token
+   ```
 
 ## Usage
 
 1. Start the bot:
-    ```bash
-    npm start
-    ```
+
+   ```bash
+   npm start
+   ```
 
 2. Interact with the bot via Telegram by sending the `/start` command.
 
